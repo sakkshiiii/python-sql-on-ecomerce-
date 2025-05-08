@@ -1,0 +1,76 @@
+1. Tools & Technologies Used
+Python Libraries:
+
+pandas – for data manipulation
+
+matplotlib, seaborn – for data visualization
+
+pymysql, mysql.connector – for database connections
+
+SQL: Used to create databases, run queries, and analyze structured data.
+
+🏗️ 2. Database Setup and Data Loading
+A new MySQL database named ecommerce was created.
+
+CSV files like customers.csv, orders.csv, products.csv, payments.csv, etc., were:
+
+Read using Python
+
+Cleaned and formatted
+
+Converted into MySQL tables with correct data types
+
+Populated using dynamic SQL INSERT statements
+
+✅ This sets up an automated data pipeline from CSVs to a structured SQL database.
+
+🔍 3. Key Analytical Queries
+These SQL queries were written and executed via Python to extract business insights:
+
+🧑‍🤝‍🧑 Customer Insights:
+Unique cities where customers are located
+
+Customer count by state
+
+Customer retention rate (repeat purchases within 6 months)
+
+📦 Order & Sales Analysis:
+Total orders placed in 2017
+
+Monthly order count in 2018
+
+Average number of products per order, grouped by city
+
+💸 Financial Insights:
+Total sales per product category
+
+Percentage of orders paid in installments
+
+Revenue contributed by each category
+
+Top sellers ranked by revenue
+
+Year-over-year sales growth
+
+Cumulative monthly sales over years
+
+📈 Trend & Behavior Analysis:
+Correlation between product price and purchase frequency
+
+📊 4. Visualizations
+While the exact charts aren’t shown here, the use of matplotlib and seaborn implies:
+
+Bar charts for sales by category
+
+Line charts for sales over time
+
+Correlation heatmaps or scatter plots for price vs. popularity
+
+💡 5. Business Value
+The integration of Python and SQL supports both data engineering (cleaning, storing) and data analysis (insights, trends).
+
+Helps marketing teams target regions and products
+
+Assists product managers in understanding demand and pricing effects
+
+Allows executives to monitor growth, retention, and top-performing categories or sellers
